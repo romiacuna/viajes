@@ -31,6 +31,8 @@ div[class*="foto-larga"]{
 
 div[class*="bloque"]{
   height: 15rem;
+  padding-bottom: 10px;
+
 }
 
 .icono-social{
@@ -57,4 +59,18 @@ div[class*="bloque"]{
 
 .botones-barra{
   padding: 7px;
+}
+
+.bloque img{
+  max-width: 100%;
+  height: 90%;
+}
+
+.foto-larga img{
+  max-width: 100%;
+  padding-bottom: 10px;
+  width: 25rem;
+  height: 35rem;
+	object-fit: cover;
+
 }
