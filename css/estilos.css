@@ -44,6 +44,12 @@ div[class*="bloque"]{
 }
 
 .logo{
-  width:20rem;
-  float: left;
+  width:40px;
+  padding: 30px;
+
+}
+
+.barra-superior{
+  display: inline-block;
+  float: right;
 }
