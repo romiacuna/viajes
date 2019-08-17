@@ -1,0 +1,49 @@
+header{
+  height: 100px;
+  position: fixed;
+  max-height: 120px;
+  z-index: -1;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  height:150px;
+  max-height: 140px;
+}
+
+body{
+  background-image: url(../img/nycfondo.jpg);
+  repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div[class*="foto-larga"]{
+  height: 40rem;
+  min-height: 50rem;
+
+}
+
+.fila-alta{
+  min-height: 30rem;
+}
+
+div[class*="bloque"]{
+  height: 15rem;
+}
+
+.icono-social{
+  padding-bottom: 10px;
+  padding-left: : 5px;
+}
+
+.espacio{
+  max-height: 40px;
+  min-height: 10px;
+}
+
+.logo{
+  width:20rem;
+  float: left;
+}
