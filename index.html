@@ -12,21 +12,21 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    <div class="row"> <!--Fila global-->
+    <div class="row"> <!--Fila principal-->
       <header class="blue-grey col l12"></header><!-- Fila fija en el fondo -->
       <div class="column l12 row encabezado">
-        <div class="columns l2">
-          <a href="#"3><img src="img/rutaviajeralogo.png" class="responsive-img logo" alt=""></a>
+        <div class="col l3">
+          <a href="#"><img src="img/rutaviajeralogo.png" class="responsive-img logo" alt=""></a>
         </div>
-        <div class="column l3">
-          <h6 class="white-text slogan">Mis lugares para visitar antes de morir</h6>
+        <div class="col l3">
+          <h6 class="white-text slogan">Lugares para visitar antes de morir</h6>
         </div>
-        <div class="columns l7 container">
+        <div class="col l7 container">
             <ul class="barra-superior">
-                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn"><i class="material-icons left">business</i> Ciudades</a></li>
-                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn"><i class="material-icons left">directions_bus</i> Transporte</a></li>
-                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn"><i class="material-icons left">card_travel</i> Equipaje</a></li>
-                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn"><i class="material-icons left">local_cafe</i> Servicios</a></li>
+                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">business</i> Ciudades</a></li>
+                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">directions_bus</i> Transporte</a></li>
+                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">card_travel</i> Equipaje</a></li>
+                <li class="botones-barra"><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">local_cafe</i> Servicios</a></li>
               </ul>
         </div>
 
@@ -34,7 +34,7 @@
       </div>
       <div class="espacio"></div>
       <div class="row fila-alta">
-        <div class="columnas col l1 m1 s2 row">
+        <div class="col col l1 m1 s2 row">
           <div class="col l11 m11">
             <ul><!-- Quizá añadir sombra a las imágenes para que se vean en relieve -->
               <li><a href="#"><img src="img/icon-facebook.png" class="responsive-img icono-social" alt=""></a></li>
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div class="col columnas l4 m2 s2 white-text push-s10"> <!-- Primera columna de fotos -->
+        <div class="col l4 m2 s2 white-text push-s10"> <!-- Primera columna de fotos -->
           <div class="col l12 bloque"><img src="img/vegas1.jpeg" alt=""></div>
           <div class="col l12 bloque"><img src="img/barcelona2.jpg" alt=""></div>
         </div>
@@ -59,13 +59,42 @@
           <div class="col l12 bloque"><img src="img/iguazu.jpg" alt=""></div>
         </div>
       </div>
+    </div><!--Fin de la fila principal-->
 
-      <!-- Añadir Entrada del blog con texto y 2 elementos materialize -->
+    <div class="row">
+      <div class="col l7 offset-l1 card">
+          <div class="card-content">
+            <span class="card-title">Chichen Itza</span>
+            <img src="img/chichenitza.jpg"><br> Uno de los mayores atractivos de México, además de sus playas,
+            selva y espectacular gastronomía, es la gran cantidad de sitios arqueológicos que alberga. Uno de los más importantes
+            es Chichen Itzá, ubicada en la península de Yucatán. Es un vestigio importante y renombrado de la civilización maya,
+            las edificaciones principales que ahí perduran corresponden al periodo denominado clásico tardío o postclásico temprano
+            (800-1100 d. C.).
+            <p>El 7 de julio de 2007, el Templo de Kukulcán, ubicado en Chichén Itzá, fue reconocido como una de las
+            nuevas siete maravillas del mundo moderno, por una iniciativa privada sin el apoyo de la Unesco, pero con el reconocimiento
+            de millones de votantes alrededor del mundo.</p>
+
+            <p>La arquitectura monumental que ha llegado hasta nuestros días, que es emblemática del yacimiento, tiene una clara influencia
+              tolteca. El dios que preside el sitio, según la mitología maya, es Kukulkán, representación maya de Quetzalcóatl, dios tomado
+              del panteón de la cultura tolteca. </p>
+            <br>
+          </div>
+
+      </div>
+      <div class="col l2 offset-l1 card">
+        <img src="img/autora.jpg" class="circle responsive-img center">
+        <span class="card-title">Perfil del autor</span>
+        <hr>
+        <p class="center justify">Juanita Pérez viaja por el mundo buscando completar una lista de lugares para visitar antes de morir. Muchas de las cosas
+        de su lista están relacionadas con grandes misterios de la humanidad, como grandes monumentos arquitectónicos, historias no
+        oficiales acerca de sucesos inexplicables y por supuesto la fama que cada ciudad ostenta en cuanto a su cultura y gastronomía.</p>
+      </div>
+    </div>
+      <!-- Añadir Entrada del blog con texto y 2 elementos materialize (card y falta un botón) -->
       <!-- Añadir Comentarios -->
-      <!-- Añadir Información del autor -->
       <!-- Añadir Revisar adaptabilidad para pantallas m y s -->
 
-    </div><!--Fin de la fila global-->
+
 
   </body>
 </html>
