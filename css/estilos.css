@@ -84,3 +84,12 @@ div[class*="bloque"]{
   padding: 15px;
   float: left;
 }
+
+.comentarios{
+  background-color: lightskyblue;
+}
+
+.titulo-form{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

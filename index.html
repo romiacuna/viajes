@@ -62,7 +62,7 @@
     </div><!--Fin de la fila principal-->
 
     <div class="row">
-      <div class="col l7 offset-l1">
+      <div class="col l7 offset-l1"> <!-- Columna entradas -->
         <div class="card"><!-- Entrada Chichen Itza -->
           <div class="card-content">
             <img src="img/chichenitza.jpg">
@@ -87,6 +87,8 @@
           </div>
         </div><!-- Fin entrada Chichen Itza -->
 
+        <br>
+
         <div class="card"><!-- Entrada Rapa Nui -->
           <img src="img/rapanui1.jpg">
             <div class="card-content">
@@ -110,12 +112,36 @@
           </div>
         </div><!-- Fin entrada Rapa Nui -->
 
-        <!-- Añadir bloque de Comentarios -->
+        <div class="comentarios col l12 z-depth-2">
+          <div class="col l10 offset-l1">
+            <h5 class="titulo-form">Deja tu comentario</h5>
+            <br>
+            <form class="col l12" action="index.html" method="post">
+              <div class="row">
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input type="text" id="nombre" class="validate">
+                  <label class="black-text" for="nombre">Nombre</label>
+                </div>
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="correo" class="validate">
+                  <label for="correo" class="black-text">Correo electrónico</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="comentario" class="materialize-textarea"></textarea>
+                  <label for="comentario" class="black-text">Comentario</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> <!-- Fin columna entradas -->
 
-      </div>
 
-
-      <div class="col l2 offset-l1">
+      <div class="col l2 offset-l1"><!-- Columna perfil autor -->
         <div class="card">
           <div class="card-content">
             <img src="img/autora.jpg" class="circle responsive-img center">
