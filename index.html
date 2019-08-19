@@ -46,24 +46,31 @@
           </div>
         </div>
 
-        <div class="col l4 m4 s2 white-text push-s10"> <!-- Primera columna de fotos -->
+        <div class="col l4 m4 s2 white-text show-on-large hide-on-med-and-down"> <!-- Primera columna de fotos -->
           <div class="col l12 m12 bloque"><img src="img/vegas1.jpeg" alt=""></div>
           <div class="col l12 m12 bloque"><img src="img/barcelona2.jpg" alt=""></div>
         </div>
-        <div class="col l4 m4 s2"> <!-- Segunda columna de fotos -->
-          <div class="col l12 foto-larga"><img src="img/torresdelpaine4.jpg" alt=""></div>
+        <div class="col m5 s12 white-text show-on-med-and-down hide-on-large-only"><!-- Pantallas medianas y chicas -->
+          <div class="col l12 m12 bloque"><img src="img/vegas1.jpeg" alt=""></div>
+          <div class="col l12 m12 bloque"><img src="img/barcelona2.jpg" alt=""></div>
         </div>
-        <div class="show-on-large-only col l3"> <!-- Tercera columna de fotos -->
+        <div class="col l4 show-on-large hide-on-med-and-down"> <!-- Segunda columna de fotos -->
+          <div class="col l12 foto-larga"><img src="img/torresdelpaine4.jpg"></div>
+        </div>
+        <div class="hide-on-large-only show-on-medium-and-down col m6 s12"> <!-- Pantallas medianas y chicas -->
+          <div class="col m12 s12 foto-larga"><img src="img/torresdelpaine4.jpg"></div>
+        </div>
+        <div class="show-on-large hide-on-med-and-down col l3"> <!-- Tercera columna de fotos -->
           <div class="col l12 bloque"><img src="img/venecia1.jpg" class="responsive-img"></div>
           <div class="col l12 bloque"><img src="img/rapanui2.jpg" class="responsive-img"></div>
           <div class="col l12 bloque"><img src="img/iguazu.jpg" class="responsive-img"></div>
         </div>
-        <div class="show-on-med-only col m12">
+        <div class="show-on-medium hide-on-large-only hide-on-small-only col m12"><!-- Pantallas medianas -->
           <div class="col m4 bloque"><img src="img/venecia1.jpg" class="responsive-img"></div>
           <div class="col m4 bloque"><img src="img/rapanui2.jpg" class="responsive-img"></div>
           <div class="col m4 bloque"><img src="img/iguazu.jpg" class="responsive-img"></div>
         </div>
-        <div class="col s12 show-on-small-only">
+        <div class="col s12 show-on-small hide-on-med-and-up">
           <div class="col s12 bloque"><img src="img/venecia1.jpg" class="responsive-img"></div>
           <div class="col s12 bloque"><img src="img/rapanui2.jpg" class="responsive-img"></div>
           <div class="col s12 bloque"><img src="img/iguazu.jpg" class="responsive-img"></div>
@@ -72,7 +79,7 @@
     </div><!--Fin de la fila principal-->
 
     <div class="row">
-      <div class="col l7 m7 offset-l1 offset-m1"> <!-- Columna entradas -->
+      <div class="col l7 m7 s12 offset-l1 offset-m1"> <!-- Columna entradas -->
         <div class="card"><!-- Entrada Chichen Itza -->
           <div class="card-content">
             <img src="img/chichenitza.jpg">
@@ -145,16 +152,17 @@
                   <label for="comentario" class="black-text">Comentario</label>
                 </div>
               </div>
+              <!-- Agregar botón en el formulario -->
             </form>
           </div>
         </div>
       </div> <!-- Fin columna entradas -->
 
 
-      <div class="col l2 m2 offset-l1 offset-m1"><!-- Columna perfil autor -->
+      <div class="col l2 m2 s10 offset-l1 offset-m1 offset-s1"><!-- Columna perfil autor -->
         <div class="card">
           <div class="card-content">
-            <img src="img/autora.jpg" class="circle responsive-img center">
+            <img src="img/autora.jpg" class="circle responsive-img center perfil">
             <h5 class="center">Perfil del autor</h5>
             <hr>
             <p class="center justify">Juanita Pérez viaja por el mundo buscando completar una lista de lugares para visitar antes de morir. Muchas de las cosas

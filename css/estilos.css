@@ -98,3 +98,8 @@ div[class*="bloque"]{
      -webkit-filter: invert(100%);
     filter: invert(100%);
 }
+
+img[class*="perfil"]{
+  width: 60%;
+  padding: 15px;
+}
