@@ -93,3 +93,8 @@ div[class*="bloque"]{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.invertir-color {
+     -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
