@@ -2,14 +2,14 @@ header{
   height: 170px;
   position: fixed;
   max-height: 200px;
-  z-index: -1;
+  z-index: -2;
 }
 
 .encabezado{
   display: flex;
-  justify-content: space-between;
-  height:150px;
+  height:120px;
   max-height: 140px;
+  z-index: 1;
 }
 
 body{
@@ -22,7 +22,6 @@ body{
 div[class*="foto-larga"]{
   height: 40rem;
   min-height: 50rem;
-
 }
 
 .fila-alta{
@@ -32,7 +31,18 @@ div[class*="foto-larga"]{
 div[class*="bloque"]{
   height: 15rem;
   padding-bottom: 10px;
+}
 
+div[class*="bloque"] img{
+  width: 100%;
+  padding: 5px;
+  align-content: center;
+}
+
+div[class*="foto-larga"] img{
+  height: 100%;
+  padding: 10px;
+  align-content: center;
 }
 
 .icono-social{
@@ -41,20 +51,35 @@ div[class*="bloque"]{
 }
 
 .espacio{
-  max-height: 7rem;
-  height: 7rem;
+  max-height: 4rem;
+  height: 4rem;
 }
 
-.logo{
+.logo-l{
+  float:left;
   width: 85%;
+  padding-left: 50px;
+  margin-top: -40px;
+}
+
+.logo-m{
+  width: 90%;
+  padding-left: 70px;
+  margin-top: -30px;
+}
+
+.logo-s{
+  float:left;
+  width: 100%;
   padding-left: 60px;
-  padding-top: 40px;
+  margin-top: -30px;
 }
 
 .barra-superior{
   display: inline-flex;
   float: right;
-  padding-right: 10px;
+  padding-right: 5px;
+  z-index: -2;
 }
 
 .botones-barra{
@@ -77,12 +102,23 @@ div[class*="bloque"]{
 .slogan{
   font-family: Courier;
   padding-top: 7rem;
+  margin-top: -70px;
 }
 
 .card img{
   width: 20rem;
   padding: 15px;
   float: left;
+}
+
+.card img[class*="imagen-small"]{
+  width: 100%;
+  padding: 15px;
+}
+
+.card img[class*="circle"]{
+  width: 15rem;
+  padding: 15px;
 }
 
 .comentarios{
@@ -100,6 +136,24 @@ div[class*="bloque"]{
 }
 
 img[class*="perfil"]{
-  width: 60%;
-  padding: 15px;
+  width: 40%;
+}
+
+.horizontal{
+  display: inline-flex;
+}
+
+li[class*="separadores"]{
+  padding: 7px;
+}
+
+.barra-social{
+  height: 50px;
+  max-height: 50px;
+  min-height: 30px;
+  padding-top: 10px;
+}
+
+.barra-social img{
+  max-width: 40px;
 }
